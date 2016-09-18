@@ -1,0 +1,349 @@
+/*
+8/13/16 9:36PM
+ 8/14/16 1:24 AM
+ 8/16/16 12:46 AM
+ 8/27/16 12:48PM
+LAST WORKED ON
+
+
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Orbitron:700|Abril+Fatface);
+body{
+	overflow-x:hidden;
+	height:1250px;
+	width:100%;
+	margin:0;
+	padding:0;
+	display:block;
+	 
+	
+}
+p#skip{margin-top:3%;}
+hr{
+	margin:0;
+	margin-bottom:.1em;
+}
+.webpage{
+	height:100%;
+	width:100%;
+	background-color:#fff;
+}
+/*================================================================HEADER*/
+.header{
+	height:30%;
+	width:100%;
+	background-color:#fff;
+	background-image:url('../../Pictures/youSuck.jpg');
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	overflow: hidden;
+
+}
+div.get-home{
+		background-image:url(../../Pictures/home.jpg);
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:cover;
+	padding-top:30px;
+	float:left;
+	display:block;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+.social-media{
+	padding-top:3.5em;
+}
+.ytb-logo{
+	background-size:cover;
+	display:block;
+	margin:auto;
+}
+.main-nav-con{
+	height:7%;
+	width:100%;
+	background-color:#CC1B1B;
+	  top: 0;
+    z-index: 100;
+  position: fixed;
+    width: 100%;
+	
+}
+.secondary-nav-con{
+	height:10%;
+	width:100%;
+	background-color:#000000;
+	background-image:url('../../images/redBlur.png');
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+}
+span.sec-nav{
+		color:black;
+		font-family: 'Abril Fatface', cursive;
+		font-size:3em;
+		text-align:center;
+}
+button.sec-nav{
+	border:none;
+	background-color:inherit;
+	height:100%;
+	width:33%;
+	
+}
+button.sec-nav:hover{
+	background-color:#a23;
+	
+}
+span.nav-btn-text{
+	color:white;
+	font-family: 'Merriweather', serif;
+	font-size:1.4em;
+}
+.nav-btn{
+	height:100%;
+	width:25%;
+	border:none;
+	background-color:inherit;
+	color:white;
+}
+.main-content-holder{
+	height:200%;
+	width:100%;
+	margin:0;
+	background-image:url('../../images/youtubeRed.png');
+	background-size:cover;
+	background-attachment:fixed;
+	
+}
+.video-holder{
+	height:100%;
+	width:75%;
+	background-color:#FAFAFA;
+	margin:auto;
+	background-image:url('../../images/paperBackground.jpg');
+	background-position:center;
+	background-size:cover;
+	margin-top:.1em;
+	background-attachment:fixed;
+
+}
+.left-menu{
+	height:100%;
+	width:20%;
+	background-color:#fff;
+	float:left;
+	
+}
+a.creator-port{
+	text-decoration:underline !important;
+	color:inherit !important;
+	font-family:inherit !important;
+}
+.explanation{
+	height:auto;
+	width:100%;
+	background-color:#fff;
+	background-image:url('../../images/geoBackground.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+
+	
+
+
+
+
+h1.exp-text,h2.exp-text,h4.exp-text{
+	padding-top:1.5em;
+	font-size:3em;
+	text-align:center;
+	color:#4FCDE9;
+	margin:0;
+	margin-bottom:1em;
+	font-family: 'Oswald', sans-serif;
+	
+}
+a.exp-text{
+	color:white;
+	font-weight:300;
+}
+p.exp-text{
+	margin:auto 200px;
+	line-height:2.25em;
+	display:block;
+	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;
+	color:#525B5D;
+	word-spacing:.1em;
+	font-weight:600;
+	max-height:200px;
+	
+}
+/*FOOTER container ----------------------------------------------------------------------------------Footer*/
+.footer{
+	height:60%;
+	width:100%;
+	background-color:#d4d4d4;
+	background-image:url('../../images/final.jpg');
+	background-position:center;
+	background-size:cover;
+	background-attachment:scroll;
+	
+	background-repeat:no-repeat;
+}
+.social-container{
+	height:50px;
+	width:100%;
+	background-color:black;
+	
+}
+.cp{
+	text-align:center;
+	
+	color:black;
+	margin:0;
+	margin-bottom:.4em;
+	font-family: 'Oswald', sans-serif;
+
+}
+img.cp-ytb{
+	position:relative;
+	
+	bottom:0.5em;
+	display:block;
+	margin:auto;
+}
+
+/*FOOTER ENDING*/
+.ytb-link{
+	
+	height:20px;
+	width:70px;
+	margin-top:8em !important;
+	margin:auto;
+	padding:100px;
+	display:block;
+	text-align:center;
+	 transform: rotate(350deg);
+	 font-family: 'times','serif';
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+#ytb-port{
+	font-family:'Verdana','times';
+	font-size:1em;
+	color:white;
+	text-decoration:none;
+	
+}
+/*Psudeo selectors under here!!*/
+.ytb-link:hover{
+	opacity:.7;
+	background-color: #b31217;
+
+}
+a:link{
+	color:green;
+	text-decoration:none;
+	
+}
+a:hover{
+	background-color:inherit;
+	opacity:.80;
+}
+a:visited{
+	text-decoration:none;
+	color:red;
+}
+a:active{
+	color:black;
+	text-decoration:underline;
+}
+.nav-btn:hover{
+	background-color:#a4a4a4;
+}
+/*End of all psuedo selectors*/
+i.v1,h4.v1{
+	margin-bottom:.1em;
+	border-bottom-color:black;
+	border-bottom-width:thin;
+	border-bottom-style:groove;
+}
+ul{
+	list-style:none;
+	display:inline-block;
+	margin:0;
+	
+}
+li.v1{
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:5px;
+	padding-right:15px;
+	display:inline-block;
+	
+}
+span.v1{
+	color:white;
+	font-family:'garamond','serif';
+	font-size:1.5em;
+	text-decoration:none;
+}
+table{
+	display:table;
+	margin:auto;
+}
+#table-title-text{
+	
+		color:#585858;
+		
+		font-size:5em;
+		
+
+	text-shadow: -10px 10px 0px #00e6e6,
+                 -20px 20px 0px #01cccc,
+                 -30px 30px 0px #00bdbd;
+
+	font-size: 4em;
+	margin-bottom:3 em;
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	
+}
+th.table-title{				/*Title for the video galary*/
+	margin-bottom:3em;
+	display:block;
+}
+.vid-title-text{
+	font-family: Helvetica;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+	color:white;
+}
+.vid-con{		/*Styling for the video container*/
+	text-align:center;
+	margin-bottom:4em;
+	display:inline-table;
+	
+	
+}
+.music-holder{  /*div styling for Music-holder-link*/
+	
+	
+}
+
+h1.fancy-text{
+	font-family:inherit;
+	font-size:3em;
+	text-align:center;
+}
+
+/*Social media button styling below */
+/*=== MB share buttons ===*/

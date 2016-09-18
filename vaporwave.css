@@ -1,0 +1,267 @@
+@import 'https://fonts.googleapis.com/css?family=Coming+Soon|Old+Standard+TT';
+@import 'https://fonts.googleapis.com/css?family=Audiowide|Cherry+Cream+Soda';
+
+::selection{
+	background-color:lime;
+}
+body{
+	overflow-x:hidden;
+	margin:0;
+	padding:0;
+	height:8000px;
+	width:100%;
+		background-color:wheat;
+}
+/*=============================================================================================NAV_CON*/
+div.nav-con{
+	height:100px;
+	width:100%;
+	position:fixed;
+	background-color:black;
+		background-image:url('Pictures/light.jpg');
+		background-attachment:scroll;
+		background-repeat:no-repeat;
+		background-size:cover;
+}
+/*=====================================Marcelo-name*/
+h1.marcelo{
+	float:left;
+	color:white;
+	position:relative;
+	top:25px;
+	left:80px;
+	
+	font-size:3.5em;
+	margin:0;
+	display:inline-block;
+	font-family: 'Old Standard TT', serif;
+}
+/*===========Nav btn*/
+button.nav-btn{
+		background-color:#2E4053;
+		margin:10px 10px 0 0;
+	height:75%;
+	width:23%;
+	padding:0;
+	border:none;
+	display:inline-block;
+	float:right;
+	border-top-left-radius:10px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:7px;
+	border-bottom-right-radius:7px;
+	
+}
+button.nav-btn:hover{
+	border-top-left-radius:25px;
+	border-top-right-radius:10px;
+	 background-color: #943126;
+        -webkit-transition: background-color 1000ms linear;
+        -moz-transition: background-color 1000ms linear;
+        -o-transition: background-color 1000ms linear;
+        -ms-transition: background-color 1000ms linear;
+        transition: background-color 400ms linear;
+}
+span.nav-btn{
+	font-family: 'Coming Soon', cursive;
+	font-size:2em;
+	color:white;
+}
+span.nav-btn:hover{
+	border-width:0 0 3px 0;
+	border-style:solid;
+	border-color:#6C3483;
+	color:#3498DB;
+}
+img.logo{
+	float:left;
+	height:auto;
+	width:auto;
+	max-width:25%;
+	max-height:100%;
+	padding:0 0 0 5%;
+}
+div.nav-links{
+	height:80px;
+	width:100%;
+	float:right;
+	max-height:100%;
+		background-color:black;
+	border-width:0 0 thin 0;
+	border-style:solid;
+	border-color:white;
+		
+}
+/*=============================================Main content wrapper*/
+div.main-content-wrapper{
+	height:6000px;
+	width:100%;
+		background-color:red;
+	margin:auto;
+	display:block;
+}
+/*================================================ROAD*/
+div.road{
+		background-image:url('https://secure.static.tumblr.com/96cf6db8223958bf9bf9b32e76ed1854/omqiqbm/qFanr0dc8/tumblr_static_ejxdvgm1rpk4osgokok8c0cs_640_v2.gif');
+		background-size:cover;
+		background-attachment:fixed;
+		height:1500px;
+		width:100%;
+}
+/*================================================VCR background*/
+div.vcr{
+	height:1500px;
+	height:1500px;
+	width:100%;
+	background-image:url('http://media.tenor.co/images/917e28a27d13ffea0a032516149d8dec/raw');
+	background-position:center;
+	background-size:cover;
+}
+/*===============================Pool*/
+div.pool{
+	height:1500px;
+	width:100%;
+	background-image:url('http://33.media.tumblr.com/a245075e309efabc17e6b85c4abd6a46/tumblr_nsyc6jqHvx1qj7lcko1_540.gif');
+	background-size:cover;
+	background-position:center;
+	background-attachment:scroll;
+}
+/*===========================================CITY*/
+div.city{
+	height:1500px;
+	width:100%;
+	background-image:url('https://media.tenor.co/images/3569342de6190d7e2e373832583e8e1d/raw');
+	background-size:cover;
+	background-position:center;
+	background-attachment:scroll;
+}
+div.playlist-holder{
+	height:600px;
+	width:100%;
+	
+}
+/*==============AUDIO*/
+div.audio{
+	padding: 50px 0px 50px 0px; 
+	margin:auto;
+	text-align:center;
+}
+/*=================================Playlist css*/
+div.playlist{
+	background-color:#6bffff;
+	height:600px;
+	width:100%;
+}
+#playlist,
+audio {
+  background: #a0a7e8;
+  width: 400px;
+  padding: 20px;
+  margin:auto;
+  display:block;
+  list-style:none;
+}
+
+.active a {
+  color: #5DB0E6;
+  text-decoration: none;
+}
+
+li a {
+  color: #eeeedd;
+  background: #6852fd;
+  padding: 5px;
+  display: block;
+  font-family: 'Audiowide', cursive;
+  text-decoration:none;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  
+}
+
+li a:hover {
+	color:#fff;
+  text-decoration: underline;
+}
+div.background{
+	height:1500px;
+	width:100%;
+	background-color:black;
+	background-image:url('http://3.bp.blogspot.com/-RTq-t64yAtw/U90UljDOHFI/AAAAAAAABco/aFx6Cm8lOCI/s1600/tumblr_n33hnsqXrO1sey9vmo1_500.gif');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+div.footer{
+	height:1000px;
+	width:100%;
+	background-color:red;
+	background-image:url('https://media.giphy.com/media/G2k1HJdHvg0G4/giphy.gif');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+/*===========================================================COPYRIGHTS*/
+div.copy-right{
+	height:250px;
+	width:100%;
+	background-color:black;
+	
+}
+.copyrights{
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:1em;
+	font-size:2em;
+	font-family: 'Cherry Cream Soda', cursive;
+
+	margin:0;
+	color:#b8efd7;
+	font-weight: bold;
+	padding:1em 0 0 0;
+	text-shadow: -10px 10px 0px #00e6e6,
+                 -20px 20px 0px #01cccc,
+                 -30px 30px 0px #00bdbd;
+	
+}
+ small{
+	text-align:center; 
+	color:white; 
+	padding:4em 0 0 0;
+	display:block;
+}
+/*=======================================Links*/
+div.links{
+	height:100px;
+	width:100%;
+	background-color:#ddd;
+	
+}
+div.links-list{
+	    height: auto;
+    width: 70%;
+    margin: auto;
+	padding-top:7px;
+	
+}
+ul.links{
+	list-style:none;
+	display:inline-block;
+	    padding:25px 50px 25px 50px;
+		margin:0;
+}
+li.links{
+	display:inline-block;
+	border-radius:10px;
+}
+a.links{
+	
+	padding:7px;
+	border-radius:25px;
+	width:90px;
+	
+}
+/*=====================================End of CSS*/

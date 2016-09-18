@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Master youfloop template v1!!-->
+<link href='https://fonts.googleapis.com/css?family=Merriweather:900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Oswald' rel='stylesheet' type='text/css'><!--for regular text--><!--for headers-->
+ <link rel="stylesheet" type="text/css" href="FloopTemp.css">
+<script>
+
+	
+</script>
+<style>
+
+</style>
+<title>Youfloop - Branch name</title>
+</head>
+<body>
+<!--Youtube for me was the a platform in which entertainers could use to express themselves without the tainting of Hollywood executives. For me youtube was one of the greatest thing invented on the internet as it created such a strong community , that created hours upon hours of entertainment. Some of my favorite youtubers as of 2016 are [jacksfimls,Idubtz,]-->
+<p id="skip">
+<div class="webpage">
+	<div class="header"> <!--Logo goes here and other ways to get out of site./home-->
+		<div class="get-home">
+		<a href="home.html"><img class="get-home" src="../../Pictures/home.jpg" height="60" width="60"/></a>
+		</div>
+	</div>
+	<!-- under here is all the nav that is stuck to the users page-->
+	<div class="main-nav-con">
+	<a href="YouFloopHome.html" target="_blank"><button class="nav-btn" type="button"><span class="nav-btn-text">Home</span></button></a><a href="FloopInfo.html" target="_blank"><button class="nav-btn" type="button"><span class="nav-btn-text">Infomational Video's</span></button></a><a href="youfloopStrange.html" target="_blank"><button class="nav-btn" type="button"><span class="nav-btn-text">Strange Video's</span></button></a><a href="youfloopRandom.html" target="_blank"><button class="nav-btn" type="button"><span class="nav-btn-text">Random Video's</span></button></a>
+	</div>
+	<!--================================================================================= Is navagation cleared up [] Yes [X] No ===============================================================================-->
+	<!--Under here belongs the SECONDARY NAV-->
+	<div class="secondary-nav-con">
+	<a href="FloopMusic.html" class="sec-nav"><button class="sec-nav" type="button"><span class="sec-nav">Music</span></button></a><a href="YouFloopAnimation.html" class="sec-nav"><button class="sec-nav" type="button"><span class="sec-nav">Animation</span></button></a><a href="YouFloopDrama.html" class="sec-nav"><button class="sec-nav" type="button"><span class="sec-nav">Drama</span></button></a>
+	</div>
+	<!--================================================================================= Is navagation cleared up [] Yes [X] No ===============================================================================-->
+	<div class="main-content-holder">
+		<div class="video-holder">
+			<table>
+				<th colspan="2" class="table-title"><span id="table-title-text">Table title</span></th> <!--The title for the page, should be page name !!-->
+	<tr class="vid-con"><td><span class="vid-title-text">Japanese Donald Trump <a class="creator-port" href="#" target="_blank">Creator name</a></span></td></tr>
+	<tr><td class="vid-con"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZbM6WbUw7Bs" frameborder="2" allowfullscreen></iframe></td></tr>
+	
+	<tr class="vid-con"><td><span class="vid-title-text">Vid Title!! <a class="creator-port" href="#" target="_blank">Creator name</a></span></td></tr>
+	<tr><td class="vid-con"><iframe width="560" height="315" src="https://www.youtube.com/embed/kfIc944bSJ8" frameborder="2" allowfullscreen></iframe></td></tr>
+	
+	<tr class="vid-con"><td><span class="vid-title-text">Vid Title!! <a class="creator-port" href="#" target="_blank">Creator name</a></span></td></tr>
+	<tr><td class="vid-con"><iframe width="560" height="315" src="https://www.youtube.com/embed/zKPhjkw3Y84" frameborder="2" allowfullscreen></iframe></td></tr>
+	
+	<tr class="vid-con"><td><span class="vid-title-text">Vid Title!! <a class="creator-port" href="#" target="_blank">Creator name</a></span></td></tr>
+	<tr><td class="vid-con"><iframe width="560" height="315" src="https://www.youtube.com/embed/OFQQALduhzA" frameborder="2" allowfullscreen></iframe></td></tr>
+	
+	<tr class="vid-con"><td><span class="vid-title-text">Vid Title!! <a class="creator-port" href="#" target="_blank">Creator name</a></span></td></tr>
+	<tr><td class="vid-con"><iframe width="560" height="315" src="https://www.youtube.com/embed/UbQgXeY_zi4" frameborder="2" allowfullscreen></iframe></td></tr>
+	</table>
+		
+		</div>
+	</div>
+	<!--This section can be used to explain what the point of this exact page is, for example what the meaning of cringe is and how it  got so big. explantion: people like seeing other in there finsest hour or in cringe comps, the
+	time when there in there worst shape-->
+	
+	<div class="explanation">
+	<h2 class="exp-text">Why I love Youtube</h2>
+	<p class="exp-text">Unlike other social media platforms , Youtube  in a sense has always been for people to express themselves through video no matter how much of an amatuer they are. In a sense anyone could be the next big thing
+	but only the people who actively put hours into there video's reach the fame that is seen throughtout the  youtube community. Youtube has evolved throughtout the years bringing toghether people who without youtube would not have
+	have known each other. This is aparent by the Anual <a class="exp-text" href="https://www.youtube.com/user/theyearinreview" target="_blank">YoutubeRewind&copy;</a> that youtube posts to show off there incredibly diverse creators that make the site what it is!
+	 </p>
+		<h1 class="exp-text">Why I choose these videos</h1>
+		<p class="exp-text">While Im a sucker for funny quick punch line animations , I know that , not everyone is , so before warding off people with just cartoons I tried to vary the things I put on the main page. Of course there are a 
+		few repeats of type of video's, but during 2016 youtube has influxed with "Drama-related" video's to the point where its been pointed out as a problem. I hope you enjoy some of these video's even if you are to much of
+		an intelectual. There will be video's througout the site that are thought provoking or just plain random ass funny, and I hope you enjoy them just as much as I did.</p>
+		<h4 class="exp-text">Downsides to Youtube</h4>
+		<p class="exp-text">No social media platform is perfect , as shown by Facebooks horrific copyRight policy or the clutter of shit talking between celeberties on Twitter and on and on. But the gradual shift to 
+		length based content to maxamize ad revenue not somewhere like a site like Youtube should be heading. This large change can be felt as content on youtube especially the "Gaming community" no longer have video's 
+		shorter than 10 minutes as Youtube directly encourages this</p>
+		
+		<--Under here can hold videos that relate to the specific explantion, like an ASMR vid for a ASMR page ext...-->
+		<div class="vid-con" style="display:block;margin:auto;">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/KK9bwTlAvgo" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+
+<div class="footer">
+<h1 class="cp">Powered by:Harshmellow</h1>
+<p class="cp">Version 4.0</p>
+<p class="cp">AND</p>
+<a href="https://gaming.youtube.com/"><img src="../../images/copyRight.png" class="cp-ytb"/></a>
+<a class="ytb-link" href="#easteregg" target="_blank"><span id="ytb-port">clever hints</span></a>
+<!--Above goes the easter egg that is connected to the page that the user is on-->
+
+<i class="v1"><address>Marcelo Escalante 16'</address></i>
+<h4 class="v1">YoufloopV1</h4>
+<ul><li class="v1"><a href="../youfloopOutdated/youfloop.html" target="_blank"><span class="v1">Homepage</span></a></li><li class="v1" target="_blank"><a href="../youfloopOutdated/youfloop2.html"><span class="v1">Page 2</span></a><li class="v1" target="_blank"><a href="../youfloopOutdated/youfloop3.html"><span class="v1">Page 3</span></a></li></ul>
+</div>
+
+
+</div>
+</body>
+</html>

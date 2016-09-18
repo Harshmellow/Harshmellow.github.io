@@ -1,50 +1,290 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="Personalf.css">
-<title>
-	Fun Room
-</title>
-</head>
+<title>FunRoom</title>
+<script>
+window.onload = function() {
+    var backgroundAudio=document.getElementById("myAudio");
+    backgroundAudio.volume=0.10;
+</script>
 <style>
-.header{
-	background-image:url("Pictures/maimi.jpg");
+body{
+	overflow-x:hidden;
+}
+.header-container{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+background: #f3c5bd; /* Old browsers */
+background: -moz-linear-gradient(left,  #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=1 ); /* IE6-9 */
+
+}
+.header-left{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b2e1ff+0,66b6fc+100;Blue+3D+%236 */
+background: #b2e1ff; /* Old browsers */
+background: -moz-linear-gradient(left,  #b2e1ff 0%, #66b6fc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #b2e1ff 0%,#66b6fc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #b2e1ff 0%,#66b6fc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=1 ); /* IE6-9 */
+
+	float:left;
+}
+/*ABOVE CONTAINS GRADIENTS FOR THE BACKGROUND COLOR OF THE HEADER*/
+body{
+	overflow-x:hidden;
+}
+.header-con{
+	height:30%;
+	width:100%;
+	display:block;
+	background-color:#40A2B0;
+	background-image:url("../Pictures/redWood.jpg");
+	background-image:url(../Pictures/deadTree.jpg) bottom right no-repeat;
 	background-position:center;
 	background-repeat:no-repeat;
+	max-height:30%;
+	max-width:100%;
+	
 }
-</style>
-<body style="height:1000px;width:1000px;margin:auto;">
-<p style="height10px;width:100%;margin-bottom:2%;"></p>
-<div class="header-container" style="height:30%;width:80%;background-color:#202020;margin:auto;margin-top:2%;">
-		<div class="header" style="height:100%;width:75%;background-color:#FFB060; margin:auto;">
-			
-		</div>
-</div>
-	<div class="nav-container" style="height: 25px; width:310px;">
-			<nav style="width:330px;">
-			<button class="nav-button" type="button"><a href="Homepagev2.html" target="_blank"><span class="nav-button-text" style="background-color:#D8D7D6;">Home</span></a></button>&#x2605;<button type="button" class="nav-button" style="background-color:#D8D7D6;"><a href="about.html" target="_blank"><span class="nav-button-text" style="background-color:#D8D7D6;">About Me</span></a></button>&#x2605;<button class="nav-button" type="button"><a href="funRoom.html" target="_blank"><span class="nav-button-text" style="background-color:#D8D7D6;">FunRoom</span></a></button>&#x2605;<button class="nav-button" type="button"><a href="animations.html" target="_blank"><span class="nav-button-text" style="background-color:#D8D7D6;">Animations</span></a></button>
-			</nav>
-		</div>
-		<div class="gif">
-		<marquee behavior="scroll" direction="left">
-		<img src="Pictures/pacmanGhost.png" width="100" height="100" alt="Amazing Doge"><marquee behavior="scroll" direction="left" scrollamount="30">
-		<img src="Pictures/pacman.jpg" width="125" height="82" alt="Flying Bat">
-		</marquee>
-		</marquee>
-		</div>
-<div class="main-content" style="height:65%;width:90%;background-color:#BEF5AE;padding-left:5%;padding-right:5%;">
-<p> <b>put the cancer here!!</b>
-</div>
-<div style="height:10%;width:100%;">
-<footer id="footer" style="height: 100px; width 100%; color: red; font-size: 16px; font-family: verdana;">
-	 <p>Last edited:7/9/2016 V1.42 <time>4:41pm</time></p>
-	<p><em>Other Website by: Marcelo Escalante 15'</em></p>
-	<a href="file:///C:/Users/MarceloRIG/Desktop/01000110%20%2001010101%2001000011%2001001011%20%2001011001%2001001111%2001010101%2000100001/Fort%20Knox/Locker/Websites/Home%20inspection/Uncle%20Jays%20Home%20Inspection.html" target="_blank" >
-	Uncles website</a>
+.main-content{
+	height:100%;
+	width:100%;
+	max-height:100%;
+	max-width:100%;
+	background-color:#FFBD2D;
+	background-image:url("../Pictures/background.jpg");
 
- <marquee behavior="scroll" direction="left"><audio src="music.mp3" autoplay="true" control preload="auto" autobuffer></audio>Dont mind me, its your daily NSA probing!</marquee>
- <a href="Contact.html">Contact Author</a>
-</footer>
+}
+.main-text{
+	height:55%;
+	width:100%;
+	background-color:#CF6;
+}
+.picture-nav{
+	height:33%;
+	width:100%;
+	max-height:33%;
+	max-width:100%;
+	display:block
+	background-color:black;
+	/*background-position:center;
+	background-repeat:none;*/
+}
+pre{
+	color:white;
+	font-size:2em;
+	font-family:times,sans serif,verdana;
+	
+}
+.pic-text{
+	border-bottom-color:white;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+}
+.nav-con{
+	margin-top:50px;
+	height:5%;
+	width:100%;
+	background-color:gray;
+}
+button{
+	width:25%;
+	height:75%;
+	border-bottom-color:red;
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+	border-radius:5px;
+}
+.footer{
+	height:23%;
+	width:100%;
+	max-height:15%;
+	max-width:100%;
+	background-color:#4B4242;
+	
+}
+.footer,h1,p{
+	text-align:center;
+	font-family:verdana;
+	margin-top:0px;
+	color:white;
+	
+}
+img:hover{
+	opacity:.5;
+}
+
+/*Under goes all button functionality*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*indivdual css goes under here*/
+.main-cancer{
+	height:600%;
+	width:100%;
+	background-image:url('../Pictures/mlgBackground.jpg');
+	background-position:center;
+}
+.fuk-off{
+	font-size:1.5em;
+	color:red;
+	font-family:times,sans-serif;
+}
+img{
+	max-width:100%;
+	max-width:100%;
+}
+#iceDragon{
+	margin-left:58%;
+}
+#fireDragon{
+	
+}
+#version{
+	font-size:1em;
+	color:yellow;
+	margin-top:0;
+}
+.main-cancer-content{
+	margin:auto;
+	height:75%;
+	width:50%;
+	background-color:#f23f2f;
+	-webkit-box-shadow: 200px 144px 16px -2px rgba(8,209,55,1);
+-moz-box-shadow: 200px 144px 16px -2px rgba(8,209,55,1);
+box-shadow: 200px 144px 16px -2px rgba(8,209,55,1);
+
+}
+.left-cancer{
+	float:left;
+	width:10%;
+	height:100%;
+}
+.left-cancer-mq{
+	height:100%;
+	width:100%;
+}
+
+/*End of button functionality batch!!*/
+</style>
+</head>
+<body style="height:1500px;width:100%;">
+<div class="header-container" style="height:30%;width:100%;">
+<img id="fireDragon" src="../Pictures/fireDragon.jpg"  height="400px" width="400"/>
+	<div class="header-left" style="height:100%;width:50%;">
+	<img id="iceDragon" src="../Pictures/icedragon.jpg" height="400" width="400"/>
+		
+</div>
+	<div class="main-content-room">
+	<div>
+		<marquee scroll="left"><span class="fuk-off">Sorry Rule's don't apply on this page!!</span></marquee>
+	</div>
+	<div>
+		<marquee behavior="right"><span class="fuk-off">That includes web design rules, and moral/social obligations</span></marquee>
+	</div>
+	</div>
+<div class="main-cancer">
+<div class="left-cancer">
+<marquee class="left-cancer-mq" direction="down"><a href="https://www.torproject.org/" target="_blank"><img src="../Pictures/iceWeb.jpg" height="80" width="80"/></a></marquee>
+</div>
+	<div class="main-cancer-content">
+		<marquee style="font-family:Book Antiqua; color: #FFFFFF" bgcolor="#000080" scrollamount="5"><audio controls autoplay volume=".50">  <source id="myAudio" src="../Pictures/meme.mp3" type="audio/mpeg"></audio></marquee>
+		
+		<h1>We'll if you did'nt click out of this annoying ass webpage in an instant, you might be clinakly insane. I dont know that something for you to decide.</h1>
+<p>Here some dank  websites that I have ran into throughtout the years!!</p>
+<div class="main-cancer-content-links">
+<ul>
+	<li><a href="http://dafk.net/what/" target="_blank">Why</a></li>
+	<li><a href="http://paletton.com/#uid=13P0u0kllllaFw0g0qFqFg0w0aF" target="_blank">Does</a>
+	<li><a href="https://www.calm.com/" target="_blank">This</a>
+	<li><a href="http://www.writewords.org.uk/word_count.asp" target="_blank">List</a>
+	<li><a href="https://app.grammarly.com/?affiliateID=10439&affiliateNetwork=ho" target="_blank">Exist</a>
+	<li><a href="https://archive.org/web/" target="_blank">.</a>
+	<li><a href="https://haveibeenpwned.com/" target="_blank">Better </a>
+	<li><a href="https://www.codecademy.com/learn" target="_blank">Question</a>
+	<li><a href="https://www.symbolab.com/solver/complex-numbers-calculator" target="_blank">Why</a>
+	<li><a href="http://www.boredbutton.com/" target="_blank">Are</a>
+	<li><a href="http://circle-game.sysach.com/" target="_blank">Looking</a>
+	<li><a href="https://github.com/" target="_blank">At</a>
+	<li><a href="http://youtubepoop.com/index.php/en/show/trending" target="_blank">All</a>
+	<li><a href="http://butdoesitfloat.com/" target="_blank">The</a>
+	<li><a href="http://doubleninja.com/" target="_blank">Links</a>
+	<li><a href="http://www.aol.com/" target="_blank">.</a>
+	<li><a href="http://www.tutorialspoint.com/codingground.htm" target="_blank">Have-e-nt</a>
+	<li><a href="https://www.reddit.com/" target="_blank">Your</a>
+	<li><a href="http://www.4chan.org/" target="_blank">Parents</a>
+	<li><a href="http://global.thermonuclearwar.org/" target="_blank">Taught</a>
+	<li><a href="http://www.hpschools.net/cms/One.aspx?portalId=107186&pageId=8455280" target="_blank">You</a>
+	<li><a href="https://www.google.com/doodles/" target="_blank">To</a>
+	<li><a href="http://stackoverflow.com/" target="_blank">Not</a>
+	<li><a href="http://web.archive.org/web/20131015212820/http://www.deviantart.com/" target="_blank">Touch</a>
+	<li><a href="https://web.archive.org/web/19961220154510/http://www.yahoo.com/" target="_blank">A</a>
+	<li><a href="http://toastytech.com/evil/" target="_blank">Dirty</a>
+	<li><a href="http://www.cnn.com/US/OJ/" target="_blank">Link</a>
+	<li><a href="http://zombo.com/" target="_blank">You</a>
+	<li><a href="https://www.ted.com/talks" target="_blank">Can</a>
+	<li><a href="http://www.madmagazine.com/" target="_blank">Get</a>
+	<li><a href="http://www.theonion.com/" target="_blank">A</a>
+	<li><a href="https://thepiratebay.org/" target="_blank">Virus</a>
+</ul>
+</div>
+	</div>
+</div>
+<div class="main-cancer-right">
+
+<marquee class="left-cancer-mq" direction="right" scrollamount="100" bgcolor="#000080" ><a href="https://www.torproject.org/"><img src="../Pictures/sanic.png" height="80" width="80"/></a></marquee>
+</div>
+<div class="footer">
+	<pre id="version">						Version 3.0 [Powered by:Harshmellow]    
+	Intentionall garbage btw, to hopefully show how much work goes into making one page, as just putting pure shit doesnt work</pre>
+
 </div>
 </body>
 </html>

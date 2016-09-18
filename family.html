@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Denk+One|Russo+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+<title>Harshmellow - Family Tree</title>
+<script>
+	/*window.onload = alert('Hello Cunt');*/
+
+</script>
+<style>
+/*==========================================================================BODY*/
+body {
+	overflow-x:hidden;
+	background-color:#fafafa;
+	height:5000px;
+	width:100%;
+	max-height:100%;
+	max-width:100%;
+	margin:0;
+	padding:0;
+}
+/*==========================================================================HEADER*/
+div.header-wrapper{
+	max-height:10%;
+	max-width:100%;
+	height:500px;
+	width:100%;
+		
+		background-color:#fff;
+			display:block;
+			margin:0;
+			
+}
+div.header{
+	max-height:75%;
+	height:75%;
+	width:100%;
+	 background-image:url('../images/cloud.jpg');
+	 background-size:cover;
+	 background-position:center;
+	 background-attachment:scroll;
+		opacity:.7;
+}
+.header-title{
+	text-align:center;
+	display:block;
+	font-family: 'Orbitron', sans-serif;
+	margin:0;
+	padding-top:3em;
+	
+}
+span.header-title{
+	font-family: 'Orbitron', sans-serif;
+	font-size:2em;
+	color:#3498DB;
+	text-align:center;
+	padding:0;
+	margin:0;
+	
+}
+/*========================================================================== Main nav*/
+div.main-nav-con{
+	max-height:25%;
+	max-width:100%;
+	height:250px;
+	background-color:black;
+}
+.main-btn:hover{
+	background:transparent;
+	opacity:.7;
+}
+.main-btn{
+	background-color:inherit;
+	border:none;
+	color:white;
+	height:100%;
+	width:25%;
+	 color: lime; 
+  font-family: "Courier";
+  font-size: 20px;
+
+  white-space: nowrap;
+  overflow: hidden;
+ animation: type 4s steps(60, end); 
+	
+}
+span.main-btn{
+	font-family:
+	font-weight:bold;
+	font-size:2.5em;
+}
+/*========================================================================== styling for main-btn*/
+span.main-btn{
+  animation: blink 1s ;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+/*========================================================================== Main content holder*/
+div.main-content-holder{
+	max-height:75%;
+	max-width:100%;
+	width:100%;
+	height:3750px;
+	
+	background-color:#fafafa;
+}
+div.main-content{
+	max-height:90%;
+	height:3375px;
+		margin-top:2em;
+		padding-bottom:2em;
+	width:65%;
+	max-width:65%;
+	float:right;
+	margin-right:2em;
+	padding-top:3em;
+		background-color:#fff;
+		border: thin #a4a4a4; solid ;
+	-webkit-box-shadow: 25px 59px 65px 9px rgba(0,0,0,0.58);
+-moz-box-shadow: 25px 59px 65px 9px rgba(0,0,0,0.58);
+box-shadow: 25px 59px 65px 9px rgba(0,0,0,0.58);
+}
+.main-content-headers{
+	font-family: 'Denk One', sans-serif;
+	font-size:2em;
+	font-weight:bold;
+	color:#1A5276;
+	text-align:center;
+	display:block;
+	padding-top:1em;
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+	border-bottom-color:#1A5276;
+	
+}
+p.main-content-text{
+	word-spacing:.15em;
+	line-height:1.75em;
+	color:#3498DB;
+	font-family: 'Poiret One', cursive;
+	padding-left:1.5em;
+	padding-right:1.5em;
+	text-align:center;
+	overflow:hidden;
+	font-weight:bold;
+	
+}
+aside.main-content-text{
+	text-align:center;
+	padding-top:.25em;
+	padding-bottom:.25em;
+	color:#515A5A;
+	word-spacing:.15em;
+	line-height:1.75em;
+	opacity:.7;
+}
+aside.main-content-text:before{
+	content: "**"
+}
+aside.main-content-text:after{
+	content: "**"
+}
+section{
+	text-align:center;
+	padding-left:1em;
+	padding-right:1em;
+}
+/*=========================================================================================SECONDARY nav holder*/
+div.sec-nav-con{
+	max-height:90%;
+	height:3375px;
+	max-width:25%;
+	margin-top:4em;
+	margin-right:4em;
+		width:25%;
+	float:left;
+			background-color:#34495E;
+			-webkit-box-shadow: 25px 59px 54px 2px rgba(0,0,0,0.58);
+-moz-box-shadow: 25px 59px 54px 2px rgba(0,0,0,0.58);
+box-shadow: 25px 59px 54px 2px rgba(0,0,0,0.58);
+}
+h1.sec-list{
+	max-height:56px;
+	max-width:100%;
+	text-align:center;
+	display:block;
+	margin:0;
+	padding-top:.5em;
+	font-family: 'Russo One', sans-serif;
+	color:#E74C3C;
+	font-size:2em;
+	font-weight:bold;
+	border-left-style:solid;
+	border-left-width:10px;
+	border-left-color:red;
+		border-bottom-color:#E67E22;
+		border-bottom-style:solid;
+		border-bottom-width:thin;
+	overflow:hidden;
+}
+p.sec-list{
+	max-height:25px;
+	max-width:100%;
+	display:block;
+	text-align:center;
+	color:#B9160D !important;
+	font-family: 'Russo One', sans-serif;
+	font-weight:normal;
+	font-size:1em;
+}
+p.sec-list:hover{
+	opacity:.7;
+	background-color:#3A83CA;
+	background-color:inherit;
+	text-decoration:underline;
+}
+
+/*========================================================================== Footer*/
+div.footer-wrapper{
+	max-height:20%;
+	max-width:100%;
+	width:100%;
+	height:1000px;
+		background-color:#fff;
+}
+/*============================================================================================WEBKITS EXT GO UNDER HERE!!*/
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+ 
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+/*====================================================================================PSUEDO selectors*/
+a:link{
+	color:green;
+	font-weight:bold;
+	font-family:inherit;
+	text-decoration:none;
+	
+}
+a:visited{
+	text-decoration:none;
+	color:red;
+	font-weight:normal;
+}
+a:hover{
+	text-decoration:underline;
+	
+}
+</style>
+</head>
+<body>
+<!--Holds the header with image and title-->
+	<div class="header-wrapper">
+	
+		<div class="header">
+			<h1 class="header-title"><span class="header-title">Harshmellow</span></h1>
+		</div>
+		<div class="main-nav-con">
+	<a href="../index.html"><button class="main-btn" type="button"><span class="main-btn">Home</span></button></a><a href="#"><button class="main-btn" type="button"><span class="main-btn">Family</span></button></a><a href="../Projects/youfloop/youfloopHome.html"><button class="main-btn" type="button"><span class="main-btn">Entertainment</span></button></a><a href="../Projects/Design.html"><button class="main-btn" type="button"><span class="main-btn">Journey</span></button></a>
+	</div>
+	</div>
+	<!--Holds the main way to get around the site-->
+	
+	<!-- holds the main content -->
+	<div class="main-content-holder">
+	<!--holds the secondary navagation for site moving around-->
+	<div class="sec-nav-con">
+		<h1 class="sec-list">Immedeate Family</h1>
+			<p class="sec-list"><a href="contacts/ZoeWebsite.html"><span class="sec-list">Zoe's Profile</span></a></p>
+			<p class="sec-list"><a href="#">Dad<span class="sec-list"></span></a></p>
+			<p class="sec-list"><a href="contacts/gavinWebsite.html"><span class="sec-list">Gavin's Profile</span></a></p>
+		<h1 class="sec-list">Cousins</h1>
+			<p class="sec-list"><a href="contacts/MylesWebsite.html"><span class="sec-list">Myles's Profile</span></a></p>
+			<p class="sec-list"><a href="contacts/RocioWebsite.html"><span class="sec-list">Rocio's Profile</span></a></p>
+			<p class="sec-list"><a href="contacts/KirasWebsite.html">Kira's Profile</a></p>
+			<p class="sec-list"><a href="contacts/reesesWebsite.html">Reese's Profile</a></p>
+		<h1 class="sec-list">Uncles</h1>
+			<p class="sec-list"><a href="#"><span class="sec-list">I</span></a></p>
+			<p class="sec-list"><a href="#"><span class="sec-list">Am</span></a></p>
+			<p class="sec-list"><a href="#"><span class="sec-list">To</span></a></p>
+		<h1 class="sec-list">Elders</h1>
+			<p class="sec-list"><a href="#"><span class="sec-list">Lazy</span></a></p>
+			<p class="sec-list"><a href="#"><span class="sec-list">for</span></a></p>
+			<p class="sec-list"><a href="#"><span class="sec-list">more</span></a></p>
+	</div>
+		<!--holds the text or main content for the site to hold-->
+		<div class="main-content">
+						<article>
+				<section>
+                <h1 class="main-content-headers">Early Childhood</h1>
+                    <p class="main-content-text">I was born in a country called <a href="https://en.wikipedia.org/wiki/El_Salvador" target="_blank">El Salvador</a></b> located in the central America, and to be honest since I moved when I was 6 
+                    to the <b>U.S</b> I don't really remember much from the 6 years I was there aside from the taste of<a href="https://en.wikipedia.org/wiki/Pupusa" target="_blank"> Pupusa's </a>. But I do remember having the luxury
+                    to go to a private german School in El Salvador called:<a href="http://www.walte.edu.sv/index.php?lang=es" target="_blank"> WALTE </a> which I eventually left, because while attending there
+                    I ended up cutting off a piece of my ear, requiring me to get plastic surgery and having a surgeon sew it back together.<aside class="main-content-text">In a country like El Salvador they sometimes play by the different rule, compared to the US. Whereas in the Us , they would have a large lawsuit in El Salvador all they had to do  is kick you out and threaten you , if you go to the courts</aside> </p>
+                </section>
+				<section>
+				   <h2 class="main-content-headers">Moving to America</h2>
+                    <p class="main-content-text">I have been to certain American cities for short instances when I was 6 when like the time I flew with my mom to San Francisco. I remember vividly the first time 
+                    I saw snow there. I freaked out, <i>seeing</i> the shower of these crystals that would disintegrate if your try to hold them.<aside class="main-content-text">since being a kid from a place where its normal for the temperature to be 100&#8457; and the idea of snow just reminded me of Christmas to much. But, aside from
+                    that America was and all that came with it was something completely new to me. That included English, since at the time I only spoke Spanish</aside></p>
+                 </section>
+					
+						
+			
+			</article>
+		</div>
+	</div>
+	<!--Footer holds older versions of site and directory to distanced channels/ personal contact-->
+	<div class="more-content">
+		
+	</div>
+	<div class="footer-wrapper">
+		<h1>Version 4.0</h1>
+	</div>
+</body>
+</html>
